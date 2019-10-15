@@ -1,2 +1,0 @@
-def plotting_function(x):
-    return x
