@@ -1,0 +1,22 @@
+import numpy as np
+import tensorflow as tf
+import tensorflow_probability as tfp
+import matplotlib.pyplot as plt
+
+def MLP(input):
+
+    output = tf.keras.Sequential([
+        tf.keras.layers.Dense(64,activation='relu'),
+        tf.keras.layers.Dense(64),
+    ])(input)
+   
+    return output
+
+def get_y(x):
+    y = np.sin(x**2) + 2*np.cos(3x)
+    return y
+
+x = np.linspace(-10,10)
+y = get_y(x)
+
+

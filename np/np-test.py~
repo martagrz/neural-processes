@@ -1,0 +1,6 @@
+import tensorflow as tf
+import tensorflow-probability as tfp
+from np import *
+
+#Generate data
+#Run model 
