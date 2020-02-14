@@ -1,2 +1,2 @@
-# NPs
+# Implementation of neural processes
 
